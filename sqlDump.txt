@@ -1,0 +1,18 @@
+### The SQL codes that I used to create my database & table ###
+
+CREATE DATABASE data_php;
+
+USE data_php;
+
+CREATE TABLE info (
+    id int primary key,
+    user varchar(20) not null,
+    password varchar(255) not null,
+    reg_date date not null
+    );
+
+INSERT INTO info (id, user, password, reg_date) VALUES ('01', 'nadee', '1234', '2024-08-09');
+
+ALTER TABLE info ADD time time;
+
+SELECT * FROM info;
