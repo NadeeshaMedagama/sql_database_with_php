@@ -11,7 +11,7 @@ CREATE TABLE info (
     reg_date date not null
     );
 
-INSERT INTO info (id, user, password, reg_date) VALUES ('01', 'nadee', '1234', '2024-08-09');
+INSERT INTO info (id, user, password, reg_date) VALUES ('01', 'nadee', '#45533@445', '2024-08-09');
 
 ALTER TABLE info ADD time time;
 
